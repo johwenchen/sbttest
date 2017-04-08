@@ -14,7 +14,7 @@ class HelloSpec extends FlatSpec with Matchers {
     stack.push(1)
     stack.push(2)
     stack.pop() should be (2)
-    stack.pop() should be (2)
+    stack.pop() should be (1)
   }
 
 }
