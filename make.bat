@@ -1,3 +1,2 @@
 cd world
-sbt compile
-sbt package
+sbt compile package
